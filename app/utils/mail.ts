@@ -1,7 +1,7 @@
 import randomName from "@scaleway/random-name";
 import { customAlphabet } from "nanoid";
 
-export const MAIL_DOMAIN = "caishenjia.xyz";
+export const MAIL_DOMAIN = "edu.caishenjia.xyz";
 const nanoSuffix = customAlphabet("abcdefghijklmnopqrstuvwxyz0123456789", 6);
 const generatedAddressPattern = new RegExp(
 	`^[a-z0-9-]+-[a-z0-9]{6}@${MAIL_DOMAIN.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`,
